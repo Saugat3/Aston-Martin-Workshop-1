@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Car Company</title>
+	<title>Aston Martin</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/b6483d0e20.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header>
@@ -18,42 +19,68 @@
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
+		<form>
+			<input type="text" placeholder="Search...">
+			<button type="submit" class="fa fa-search"></button>
+		  </form>
+		  
 	</header>
 	<main>
 		<section id="hero">
-			<h2>Welcome to Aston Martin Website</h2>
+			<h2>Welcome to <span class="highlight">ASTON MARTIN</span> official website</h2>
 			
-			<a href="https://en.wikipedia.org/wiki/Aston_Martin" class="button">Learn More</a>
+			
 		</section>
 		<section id="about">
-			<h2>About Us</h2>
-			<p>We are a leading car company that specializes in selling high-quality, luxury cars. Our team of experts are dedicated to providing exceptional customer service and ensuring that every client drives away in the car of their dreams.</p>
+			<div class="title">
+				<h2>About Us!</h2>
+			  </div>
+			<div class="container">
+				<div class="column">
+				  <h2>&nbsp;</h2><br><br>
+				  <p>Welcome to Aston Martin, a luxury car manufacturer renowned for producing some of the most iconic and sought-after vehicles in the world.
+
+					Since our founding in 1913, we have remained committed to creating beautiful, high-performance cars that embody the spirit of power, elegance, and sophistication. Our passion for precision engineering, exquisite design, and unparalleled craftsmanship is evident in every car that we produce, making Aston Martin the ultimate symbol of automotive luxury.At the heart of Aston Martin is a dedication to our customers. We strive to provide the highest level of service and support, ensuring that our customers enjoy a seamless ownership experience. Whether you are a seasoned Aston Martin enthusiast or a first-time buyer, we are here to guide you every step of the way.</p>
+				</div>
+				<div class="column">
+				  <h2>&nbsp;</h2><br><br>
+				  <p>At Aston Martin, we pride ourselves on delivering a unique driving experience that is second to none. From the sleek lines of our signature bodywork to the exhilarating sound of our engines, every aspect of our vehicles is carefully crafted to provide the perfect combination of power and refinement.
+
+Our commitment to innovation and excellence has led us to push the boundaries of automotive technology, creating cars that are not only beautiful but also intelligent and intuitive. From our state-of-the-art infotainment systems to our advanced safety features, we are constantly exploring new ways to enhance the driving experience for our customers.Aston Martin is also dedicated to giving back to the community. We support various charitable initiatives</p>
+				</div>
+				<div class="column">
+				  <h2>&nbsp;</h2><br><br>
+				  <p>Our rich history and tradition of excellence have made Aston Martin a true icon of the automotive industry. From our first car, the Coal Scuttle, to our latest models such as the DBX and the Valhalla, we have continued to innovate and lead the way in the luxury automotive market.Our commitment to excellence extends beyond our cars and into our brand partnerships, lifestyle experiences, and community involvement. We have collaborated with some of the world's most prestigious brands, such as Red Bull Racing and TAG Heuer, to create limited-edition vehicles that embody the best of both brands.Thank you for choosing Aston Martin, and we invite you to experience the power and elegance of our vehicles for yourself.
+				  </p>
+				</div>
+			  </div>
+			  
 		</section>
 		<section id="cars">
-			<h2>Our Cars</h2>
+			<h2>Our Cars</h2><br><br>
 			<ul>
 				<li>
-					<h3>Car Model 1</h3>
+					<h3>Aston Martin DB5</h3>
 					<img src="car1.jpg" alt="Car Model 1">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu purus a mauris faucibus varius ac id felis. Fusce a turpis euismod, commodo nisi id, fringilla ipsum.</p>
-					<a href="#" class="button">Learn More</a>
+					<p>This iconic car became famous for its appearance in several James Bond movies, including Goldfinger and Thunderball. With its classic design and powerful engine, the DB5 is considered one of the most beautiful cars ever made.</p>
+					<a href="https://en.wikipedia.org/wiki/Aston_Martin_DB5" target="_blank" class="button">Learn More</a>
 				</li>
 				<li>
-					<h3>Car Model 2</h3>
+					<h3>Aston Martin One-77</h3>
 					<img src="car2.jpg" alt="Car Model 2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu purus a mauris faucibus varius ac id felis. Fusce a turpis euismod, commodo nisi id, fringilla ipsum.</p>
-					<a href="#" class="button">Learn More</a>
+					<p>The One-77 is a limited edition supercar with only 77 units produced. It boasts a handcrafted aluminum body, a carbon-fiber monocoque chassis, and a 7.3-liter V12 engine that produces 750 horsepower. Its exclusivity, breathtaking design, and outstanding performance make it a favorite among car enthusiasts.</p>
+					<a href="https://en.wikipedia.org/wiki/Aston_Martin_One-77#:~:text=The%20One%2D77%20features%20a,of%20torque%20at%205%2C000%20rpm." target="_blank" class="button">Learn More</a>
 				</li>
 				<li>
-					<h3>Car Model 3</h3>
+					<h3>Aston Martin DBS Superleggera</h3>
 					<img src="car3.jpg" alt="Car Model 3">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu purus a mauris faucibus varius ac id felis. Fusce a turpis euismod, commodo nisi id, fringilla ipsum.</p>
-					<a href="#" class="button">Learn More</a>
+					<p>The DBS Superleggera is a high-performance grand tourer that combines speed, style, and luxury. Its 5.2-liter V12 engine produces 715 horsepower and can go from 0 to 60 mph in just 3.2 seconds. The car's sleek and aggressive design, combined with its refined interior, make it a favorite among Aston Martin fans..</p>
+					<a href="https://en.wikipedia.org/wiki/Aston_Martin_DBS_Superleggera" target="_blank" class="button">Learn More</a>
 				</li>
 			</ul>
 		</section>
 		<section id="contact">
-			<h2>Contact Us</h2>
+			<h2>Contact Us</h2><br><br>
 			<form>
 				<label for="name">Name:</label>
 				<input type="text" id="name" name="name" required>
@@ -62,12 +89,18 @@
 				<label for="message">Message:</label>
 				<textarea id="message" name="message" required></textarea>
 				<button type="submit" class="button">Submit</button>
-			</form>
+			</form><br><br>
+			<div class="social-media">
+				<a href="https://www.facebook.com/astonmartin" target="_blank" class="social-icon facebook"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/AstonMartinF1" target="_blank" class="social-icon twitter"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.instagram.com/astonmartinlagonda/?hl=en" target="_blank" class="social-icon instagram"><i class="fa fa-instagram"></i></a>
+			  </div>
+			  
 	
 
 </main>
 <footer>
-	<p>&copy; 2023 Car Company</p>
+	<p>&copy; 2023 Saugat-Aston Martin all rights reserved</p>
 </footer>
 </body>
 </html>
